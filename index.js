@@ -37,3 +37,22 @@ clear.onclick = function() {
   num2 = "";
   operator = "";
 }
+//Adds numbers
+function addition(num1, num2) {
+  return num1 + num2;
+}
+
+//Subtracts numbers
+function subtractio(num1, num2) {
+  return num1 - num2;
+}
+
+//Multiplies numbers
+function multiplication(num1, num2) {
+  return num1 * num2;
+}
+
+//Divides numbers
+function division(num1, num2) {
+  return num1 / num2;
+}
