@@ -56,3 +56,21 @@ function multiplication(num1, num2) {
 function division(num1, num2) {
   return num1 / num2;
 }
+
+equals.onclick = function() {
+  switch (operator)
+  {
+    case "+":
+      calcScreen.innerHTML = addition(parseFloat(num1), parseFloat(num2));
+      break;
+    case "-":
+      calcScreen.innerHTML = subtraction(parseFloat(num1), parseFloat(num2));
+      break;
+    case "*":
+      calcScreen.innerHTML = multiplication(parseFloat(num1), parseFloat(num2));
+      break;
+    case "/":
+      calcScreen.innerHTML = division(parseFloat(num1), parseFloat(num2));
+      break;
+  }
+}
