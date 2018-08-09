@@ -26,3 +26,14 @@ for (var i = 0; i < opbtns.length; i++) {
     operator = this.innerHTML;
   });
 }
+
+//Gets element with ID clear
+var clear = document.getElementById("clear");
+
+//Clear screen and reset variables when AC is clicked
+clear.onclick = function() {
+  calcScreen.innerHTML = "";
+  num1 = "";
+  num2 = "";
+  operator = "";
+}
