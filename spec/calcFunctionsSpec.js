@@ -1,5 +1,5 @@
-describe("This is testing my advanced calculator", function()
-{
+describe("This is testing my basic DOM calculator", function() {
+
   var calculator = require("../lib/testFunctions.js");
 
   //Addition
