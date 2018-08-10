@@ -43,7 +43,7 @@ function addition(num1, num2) {
 }
 
 //Subtracts numbers
-function subtractio(num1, num2) {
+function subtraction(num1, num2) {
   return num1 - num2;
 }
 
